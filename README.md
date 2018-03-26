@@ -1,2 +1,2 @@
 # spring-boot-soap
-Spring Boot sample SOAP webservice example
+Spring Boot SOAP webservice example
