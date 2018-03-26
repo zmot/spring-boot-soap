@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:tm="http://tm.com/ws/model/country">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tm:getCountryRequest>
+            <tm:abbreviation>PL</tm:abbreviation>
+        </tm:getCountryRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
