@@ -11,7 +11,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 @Endpoint
 public class CountryEndpoint {
-    private CountryRepository repository;
+    private final CountryRepository repository;
 
     @Autowired
     public CountryEndpoint(CountryRepository repository) {

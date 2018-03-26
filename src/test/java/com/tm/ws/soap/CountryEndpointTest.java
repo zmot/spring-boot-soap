@@ -30,7 +30,7 @@ public class CountryEndpointTest {
     private WebServiceTemplate ws;
 
     @Rule
-    public ExpectedException thrown = ExpectedException.none();
+    public final ExpectedException thrown = ExpectedException.none();
 
     @Before
     public void setUp() throws Exception {
