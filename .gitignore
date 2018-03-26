@@ -22,6 +22,9 @@
 *.iml
 .idea/
 
+# Maven #
+/target
+
 # Auto-generated classes #
 src/main/java/com/tm/ws/model/country/*
 
